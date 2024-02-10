@@ -4,123 +4,71 @@ layout: post
 title: Introduction to Aurora
 subtitle: A beautiful game world that you might interested in.
 description: A beautiful game world that you might interested in.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559825288/theme17_nlndhx.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559825288/theme17_nlndhx.jpg
-category: work
+image: ../assets/img/aurora/introduction/helloworld.gif
+optimized_image: 
+category: game
 tags:
-  - work
-  - career
-author: mranderson
+  - game
+author:
 ---
 
-Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+## Overview
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+Aurora is a turn-based game crafted based on classic Roguelike mechanics and elements but also integrated some style of open world in mind. The storyline revolves around the character encountering a life-threatening event in their original world. On the brink of consciousness, they are transported to a distant realm known as 'Aurora.' Players must find a way to return to their original world before their soul completely dissipates, or they will be forever trapped within there.
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+The game is primarily developed using the Unity engine and designed with C#. As a widely-used game development framework, there are many tutorial documents and videos available online, providing substantial assistance to beginners like me in game development.
 
-## Inline HTML elements
+Following are the core concepts I focus on while designing this game:
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+- Procedurally generated dungeon & world content.
+- Rich and deep character development strategy.
+- An appropriate game duration that encourages players to experience the fun of the game as much as possible in each round.
+- Not just constantly engaging in battles with enemies, but also having interesting interaction with the game world.
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Thomas A. Anderson</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+(This area is still somewhat vague for me, I'm presenting it in a more general way for now.)
 
-Most of these elements are styled by browsers with few modifications on our part.
+After a period of effort, the character can finally explore the game smoothly.
 
-# Heading 1
+![game_snip](../assets/img/aurora/introduction/general_level.gif)
 
-## Heading 2
+## 2023 Retrospective
 
-### Heading 3
+In early 2023, I spent a amount of time understanding basic knowledge of Unity and its engine framework. This included transitioning from Object-Oriented Design concepts to Component-Based Design, and other mechanism which would influence efficiency of the game during runtime. After that, I start to research on how to build a framework for turn-based games, aiming for high flexibility and scalability in game content. 
 
-#### Heading 4
+Simultaneously, I delved into understanding the elements of Roguelike games and how to seamlessly integrate them into the framework that I designed. Achieving the integration of these elements in a short period is not an overnight accomplishment, but every successful endeavor is the result of continuous steps, no matter how small, eventually leading to the finish line.
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+Throughout the entire year of 2023, I successfully achieved the following goals:
 
-## Code
+- Developed a fully customized and controllable game content serialization system, capable of seamlessly saving game progress and restoring it entirely upon the next game launch.
+- Designed a turn-based game engine framework, encompassing synchronization of animations between players and other characters, and minimizing latency for an optimal player gaming experience.
+- Established a game world content builder framework, featuring procedurally generated levels, level content and styles based on predefined logic, and the ability to freely switch predefined level content and builder options within the editor.
+- Strived to write highly flexible code to ensure easy expansion of game content and the efficient reuse of previously designed game components.
 
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
+![battle_scene](../assets/img/aurora/introduction/battle_example.gif)
+*A demonstration scene of a battle with monsters*
 
-```js
-// Example can be run directly in your JavaScript console
+However, during this process, I encountered some challenges:
 
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
+- The majority of the game assets I currently use are created by the talented u/RafaPixel. He is truly a gifted creator. Due to my pursuit of a specific game art style, I initially spent a lot of time browsing material websites like itch.io. However, obtaining game assets with a similar style and an affordable price proved to be quite challenging, causing significant frustration due to the difficulty in acquiring suitable game assets.
+- In the Aurora game world, the coverage area of many characters is not simply a 1 x 1 size. Therefore, additional effort is required to handle these annoying issues in pathfinding and FOV algorithms.
 
-// Call the function
-adder(2, 6);
-// > 8
-```
+![large_grid_object](../assets/img/aurora/introduction/large_area_grid_object.gif)
+*A character who occupies more than one grid can make things become complicated.*
 
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+- While I ultimately achieved a customized serialization system, the process was extremely lengthy and tedious. For any game developer, designing engaging game content and mechanics is much more enjoyable than creating a reliable code structure. Moreover, investing a significant amount of effort is necessary to feel the gameplay brought by the system. This type of task often leads to frustration and setbacks.
 
-## Lists
+## 2024 Outlook
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+While reviewing the accomplishments mentioned above, I feel satisfied and proud of what I've achieved so far. However, at the same time I know that there is still a long way to go before reaching the final state I want to be there.
 
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
+After a period of thought, I have decided to set the following goals for this project in 2024:
 
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+* Before delving into the "open-world content" of the game, there will be a smaller-scale area serving as a transitional stage that connects the main storyline and the core gameplay elements. In this chapter, I anticipate having approximately 3 to 4 explorable areas and a significant segment of the main game plot. I hope to seamlessly fill this portion of the game content.
+* During the search for inspiration, I often admire the pages and communities established by other creators, gaining valuable insights from both of them. Simultaneously, I want to record my creative process and ideas, thoroughly "enjoying the game development journey". Therefore, I plan to establish a webpage related to the game and other community platform accounts like Twitter to share these information.
+* Currently, most of the game's assets come from paid material websites. However, the content styles provided by these sites vary greatly and may not all align with the game content I want. After some struggles, I realized that creating the ideal work requires the ability to create original materials, whether as an individual or a team. So I've decided to enhance my skills in artistic drawing to create basic assets and simultaneous outsourcing parts of works to other creators.(If anyone reading this is interested in becoming part of this project, feel free to message me anytime!)
 
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
+In Roguelike games, diverse item effects and complex yet deep character development strategies have always been the essence. At the same time, the unpredictable game content with each new playthrough will immerse players in the challenge repeatedly. In 2024, I will continue to refine the foundational systems of the game, improving the design and functionality between each subsystem.
 
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+In summary, most of 2023 was spent on building and refining foundational systems. Therefore, I hope to make 2024 a significant leap forward in filling the game with playable content, truly beginning the "first step in designing a game."
 
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![placeholder](https://placehold.it/800x400 "Large example image")
-![placeholder](https://placehold.it/400x200 "Medium example image")
-![placeholder](https://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+Thanks for everyone who read this article. Looking forward to our next meet!
