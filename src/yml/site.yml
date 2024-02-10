@@ -1,19 +1,18 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Aurora
+title: Aurora | A recording blog for game development
+description: A beautiful game world that you might interested in.
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - roguelike
+  - turnbased
+  - unity
+# make newest post in main region
 show_hero: true
 menu:
   - title: Home
     url: /
-  - title: About
-    url: /about
+  - title: Blog
+    url: /blog
   - title: Contact
     url: /contact
   - title: Feed

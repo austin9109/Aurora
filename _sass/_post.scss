@@ -1,3 +1,7 @@
+body {
+  background-color: darkslategrey;
+}
+
 .post {
   position: relative;
   top: rem(30px);
@@ -170,7 +174,7 @@
     text-decoration: none;
 
     &:hover {
-      color: #a9a9a9;
+      color: #190102;
     }
   }
 
