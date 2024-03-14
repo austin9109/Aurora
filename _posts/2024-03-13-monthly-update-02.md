@@ -9,7 +9,7 @@ optimized_image:
 category: game
 tags:
   - game
-author: Austin
+author: austin
 ---
 
 Greetings Everyone! 
