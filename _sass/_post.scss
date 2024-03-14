@@ -648,7 +648,7 @@ h1, h2, h3, h4, h5, h6 {
       font-size: rem(14px);
       color: $texts;
       display: inline-block;
-      border: 1px solid $primaryDark;
+      border: 1px solid $texts;
       border-radius: rem(20px);
       padding: 0 rem(10px);
       margin-right: rem(2px);
@@ -661,7 +661,7 @@ h1, h2, h3, h4, h5, h6 {
 
       &:hover {
         color: $accentDark;
-        background-color: $primaryDark;
+        background-color: $texts;
       }
     }
   }
