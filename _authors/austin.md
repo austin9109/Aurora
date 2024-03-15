@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: Aurora/assets/img/uploads/profile.png
+photo: /Aurora/assets/img/uploads/profile.png
 name: austin
 display_name: Austin Yang
 position: The One

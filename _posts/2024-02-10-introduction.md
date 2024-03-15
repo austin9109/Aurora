@@ -4,8 +4,8 @@ layout: post
 title: Introduction to Aurora
 subtitle: A beautiful game world that you might interested in.
 description: A beautiful game world that you might interested in.
-image: Aurora/assets/img/aurora/introduction/helloworld.gif
-optimized_image: Aurora/assets/img/aurora/introduction/helloworld.gif
+image: /Aurora/assets/img/aurora/introduction/helloworld.gif
+optimized_image: /Aurora/assets/img/aurora/introduction/helloworld.gif
 category: game
 tags:
   - game
