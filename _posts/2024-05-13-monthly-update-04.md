@@ -4,8 +4,8 @@ layout: post
 title: Monthly Update - April 2024
 subtitle: The nice and smooth character ability GUI.
 description: The nice and smooth character ability GUI.
-image: /Aurora/assets/img/aurora/202404/title.png
-optimized_image: /Aurora/assets/img/aurora/202404/title.png
+image: /Aurora/assets/img/aurora/202404/title_05.png
+optimized_image: /Aurora/assets/img/aurora/202404/title_05.png
 category: game
 tags:
   - game
@@ -54,7 +54,7 @@ On the right side of the skills panel, detailed information about the skill is p
 
 Players can assign acquired skills to quick slots for easy access during gameplay. To do this, open the skill panel and long-press on the active skill you want to assign. Then, drag the skill icon to the desired quick slot. If the skill can be assigned to a quick slot, you will see a floating skill icon while dragging. Simply release the icon onto the desired quick slot to complete the assignment.
 
-![quickable_ability](../assets/img/aurora/202404/quickable_ability.gif.gif)
+![quickable_ability](../assets/img/aurora/202404/quickable_ability.gif)
 *Assigning a skill to a quick slot by dragging.*
 
 ---

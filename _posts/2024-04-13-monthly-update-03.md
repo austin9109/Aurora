@@ -4,8 +4,8 @@ layout: post
 title: Monthly Update - March 2024
 subtitle: The throwing system is already be there!
 description: The throwing system is already be there!
-image: /Aurora/assets/img/aurora/202403/title.gif
-optimized_image: /Aurora/assets/img/aurora/202403/title.gif
+image: /Aurora/assets/img/aurora/202403/title_03.gif
+optimized_image: /Aurora/assets/img/aurora/202403/title_03.gif
 category: game
 tags:
   - game

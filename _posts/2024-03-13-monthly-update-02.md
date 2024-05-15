@@ -4,8 +4,8 @@ layout: post
 title: Monthly Update - February 2024
 subtitle: The demo and soft launch on Itch.io is coming soon!
 description: The demo and soft launch on Itch.io is coming soon!
-image: /Aurora/assets/img/aurora/202402/title.gif
-optimized_image: /Aurora/assets/img/aurora/202402/title.gif
+image: /Aurora/assets/img/aurora/202402/title_02.gif
+optimized_image: /Aurora/assets/img/aurora/202402/title_02.gif
 category: game
 tags:
   - game
