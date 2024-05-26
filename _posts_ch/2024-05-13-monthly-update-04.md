@@ -4,8 +4,8 @@ layout: post
 title: Monthly Update - April 2024
 subtitle: The nice and smooth character ability GUI.
 description: The nice and smooth character ability GUI.
-image: /Aurora/assets/img/aurora/202404/title.png
-optimized_image: /Aurora/assets/img/aurora/202404/title.png
+image: /assets/img/aurora/202404/title.png
+optimized_image: /assets/img/aurora/202404/title.png
 category: game
 tags:
   - game

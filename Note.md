@@ -1,2 +1,5 @@
 - change post tag color: _post->tags->color setting
 - change post text color: theme.yml->text color
+- post 裡面的圖片路徑最前方需要加上 "/"
+- url: 網址的首頁
+- baseurl: 網址的子路徑，可加可不加
