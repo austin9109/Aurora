@@ -44,7 +44,7 @@ two_columns_layout: false
 
 
 # Advanced Settings
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Aurora" # the subpath of your site, e.g. /blog
 url: "https://www.aurora-rpg.com" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
