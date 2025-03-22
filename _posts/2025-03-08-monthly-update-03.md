@@ -24,9 +24,15 @@ author: austin
 
 - 透過鍵盤與滑鼠控制角色隊伍行為，讓玩家可以利用自身的反應速度與操作能力克服關卡
 
+![doge](../assets/img/aurora/202503/doge.gif)
+
 - 透過施放武器技能製造出飛行彈幕，玩家不僅要考慮施放時機，也要拿捏與敵方角色之間的距離以及方向
 
+![shoot_and_attack](../assets/img/aurora/202503/shoot_and_attack.gif)
+
 - 整合物理引擎，讓玩家角色更好的與關卡物件進行互動
+
+![environment](../assets/img/aurora/202503/environment_interaction.gif)
 
 還有許多許多尚未提及的設計想法，將陸續在未來的開發內容中與大家分享!
 
